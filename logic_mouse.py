@@ -45,9 +45,9 @@ def process(frame):
             cv2.circle(frame, (lm8x,  lm8y),  10, (255,0,255), -1)
             cv2.circle(frame, (lm12x, lm12y), 10, (255,0,255), -1)
             cv2.circle(frame, (lm20x, lm20y), 10, (255,0,255), -1)
-            cv2.line(frame, (lm8x,lm8y),  (lm4x,lm4y),   (0,255,0), 2)
-            cv2.line(frame, (lm4x,lm4y),  (lm20x,lm20y), (0,255,0), 2)
-            cv2.line(frame, (lm8x,lm8y),  (lm12x,lm12y), (0,255,0), 2)
+            # cv2.line(frame, (lm8x,lm8y),  (lm4x,lm4y),   (0,255,0), 2)
+            # cv2.line(frame, (lm4x,lm4y),  (lm20x,lm20y), (0,255,0), 2)
+            # cv2.line(frame, (lm8x,lm8y),  (lm12x,lm12y), (0,255,0), 2)
 
             dist_cai_tro  = ((lm8x-lm4x)**2  + (lm8y-lm4y)**2)**0.5
             dist_cai_ut   = ((lm20x-lm4x)**2 + (lm20y-lm4y)**2)**0.5
